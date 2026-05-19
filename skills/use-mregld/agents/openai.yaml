@@ -1,0 +1,18 @@
+interface:
+  display_name: "MrEGLD"
+  short_description: "Connect MrEGLD to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server."
+  icon_small: "https://tools.multiversx.com/assets-cdn/identities/MrEGLD/icon.png"
+  icon_large: "https://tools.multiversx.com/assets-cdn/identities/MrEGLD/icon.png"
+  brand_color: "#000000"
+  default_prompt: "List the MrEGLD tools available in this app."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "joai-mregld"
+      description: "MrEGLD MCP server by JoAi"
+      transport: "streamable_http"
+      url: "https://cortex.joai.ai/mcp/apps/mregld"
