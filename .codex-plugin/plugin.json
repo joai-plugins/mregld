@@ -1,0 +1,38 @@
+{
+  "name": "joai-mregld",
+  "version": "0.3.0",
+  "description": "Connect MrEGLD to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/mregld",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "mregld"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "MrEGLD by JoAi",
+    "shortDescription": "Connect MrEGLD to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Professional Staking Provider on MultiversX.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/mregld",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the MrEGLD tools available in this app.",
+      "Explain what setup or authentication MrEGLD needs before I run an action.",
+      "Use MrEGLD to help me with the task I describe next."
+    ]
+  }
+}
